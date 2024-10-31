@@ -30,3 +30,51 @@ section{
 .section-info{
     background-color: bisque;
 }
+
+.list-item{
+    color: #555;
+}
+
+.list-item:nth-child(3){
+    color:blueviolet;
+}
+
+input{
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #ddd;
+
+}
+
+input:focus{
+    border-color: #00aaff;
+}
+
+[type="submit"]{
+    background-color: #007bff;
+    color: white;
+
+}
+
+[type="submit"]:hover{
+    background-color: darkblue;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+h2::before{
+    content: "-";
+    text-decoration: line-through;
+}
+
+nav a:visited{
+    color: darkgoldenrod;
+}
